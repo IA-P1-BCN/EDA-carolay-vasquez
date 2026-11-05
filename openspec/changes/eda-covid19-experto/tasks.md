@@ -21,10 +21,10 @@
 
 ## 4. Feature engineering y pipeline de un comando (data-pipeline + exploratory-analysis)
 
-- [ ] 4.1 Escribir tests para `features.py` (creación de parte de fecha, ratio por 100.000 hab. tras merge, y media móvil) y verificar que fallan antes de implementar
-- [ ] 4.2 Añadir `data/external/population.csv` (población por estado) y función de `merge` por código de estado; test que verifica que el merge no pierde filas válidas del dataset principal
-- [ ] 4.3 Implementar `src/eda_covid/features.py` (≥3 variables nuevas: partes de fecha, ratios normalizados, media móvil) y verificar que los tests de 4.1–4.2 pasan
-- [ ] 4.4 Implementar `src/eda_covid/pipeline.py` ejecutable con `python -m eda_covid.pipeline` que encadena ingesta → limpieza → features → guardado de `data/processed/covid_clean.csv`; verificar que el comando termina con código 0 y crea el CSV limpio
+- [x] 4.1 Escribir tests para `features.py` (creación de parte de fecha, ratio por 100.000 hab. tras merge, y media móvil) y verificar que fallan antes de implementar
+- [x] 4.2 Añadir `data/external/population.csv` (población por estado) y función de `merge` por código de estado; test que verifica que el merge no pierde filas válidas del dataset principal
+- [x] 4.3 Implementar `src/eda_covid/features.py` (≥3 variables nuevas: partes de fecha, ratios normalizados, media móvil) y verificar que los tests de 4.1–4.2 pasan
+- [x] 4.4 Implementar `src/eda_covid/pipeline.py` ejecutable con `python -m eda_covid.pipeline` que encadena ingesta → limpieza → features → guardado de `data/processed/covid_clean.csv`; verificar que el comando termina con código 0 y crea el CSV limpio
 
 ## 5. Análisis exploratorio en notebook (exploratory-analysis)
 
