@@ -14,10 +14,10 @@
 
 ## 3. Limpieza determinista (data-pipeline)
 
-- [ ] 3.1 Escribir tests de limpieza sobre DataFrames mínimos en memoria: conversión de `date` entero a fecha, eliminación de duplicados estado+fecha, descarte de columnas con nulos > umbral, y negativos de incremento llevados a 0; verificar que fallan antes de implementar
-- [ ] 3.2 Implementar `src/eda_covid/clean.py` con funciones puras por regla (fecha, duplicados, nulos, columnas vacías, negativos) con umbral y regla parametrizables; verificar que los tests de 3.1 pasan
-- [ ] 3.3 Añadir test de idempotencia (limpiar dos veces produce el mismo DataFrame) y verificar que pasa
-- [ ] 3.4 Documentar en docstrings cada decisión de limpieza (motivo del umbral y del tratamiento de negativos) y verificar que `pytest` sigue en verde
+- [x] 3.1 Escribir tests de limpieza sobre DataFrames mínimos en memoria: conversión de `date` entero a fecha, eliminación de duplicados estado+fecha, descarte de columnas con nulos > umbral, y negativos de incremento llevados a 0; verificar que fallan antes de implementar
+- [x] 3.2 Implementar `src/eda_covid/clean.py` con funciones puras por regla (fecha, duplicados, nulos, columnas vacías, negativos) con umbral y regla parametrizables; verificar que los tests de 3.1 pasan
+- [x] 3.3 Añadir test de idempotencia (limpiar dos veces produce el mismo DataFrame) y verificar que pasa
+- [x] 3.4 Documentar en docstrings cada decisión de limpieza (motivo del umbral y del tratamiento de negativos) y verificar que `pytest` sigue en verde
 
 ## 4. Feature engineering y pipeline de un comando (data-pipeline + exploratory-analysis)
 
