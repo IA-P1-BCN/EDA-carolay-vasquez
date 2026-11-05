@@ -38,8 +38,8 @@
 
 ## 6. Dashboard interactivo (interactive-dashboard)
 
-- [ ] 6.1 Implementar `dashboard/app.py` (Streamlit) que lea `data/processed/covid_clean.csv`, con filtros de estado y rango de fechas en la barra lateral
-- [ ] 6.2 Mostrar métricas clave y ≥1 gráfico de evolución temporal (Plotly) que se actualiza con los filtros; verificar lanzando `streamlit run dashboard/app.py` y comprobando que los filtros cambian las vistas
+- [x] 6.1 Implementar `dashboard/app.py` (Streamlit) que lea `data/processed/covid_clean.csv`, con filtros de estado y rango de fechas en la barra lateral
+- [x] 6.2 Mostrar métricas clave y ≥1 gráfico de evolución temporal (Plotly) que se actualiza con los filtros; verificar lanzando `streamlit run dashboard/app.py` y comprobando que los filtros cambian las vistas
 
 ## 7. Informes y documentación (reporting)
 
