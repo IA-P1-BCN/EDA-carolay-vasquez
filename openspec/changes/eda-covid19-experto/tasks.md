@@ -8,9 +8,9 @@
 
 ## 2. Ingesta reel (data-pipeline)
 
-- [ ] 2.1 Escribir tests de `pytest` para `ingest` (usa caché si el CSV existe, descarga si no, y cae a caché ante fallo de API con monkeypatch) y verificar que fallan antes de implementar
-- [ ] 2.2 Implementar `src/eda_covid/ingest.py` (descarga de la API a `data/raw/covid_states_daily.csv`, reuso de caché, flag `--refresh`, fallback con advertencia) y verificar que los tests de 2.1 pasan
-- [ ] 2.3 Descargar los datos reales una vez y verificar que el CSV crudo queda en `data/raw/` con ~20.780 filas
+- [x] 2.1 Escribir tests de `pytest` para `ingest` (usa caché si el CSV existe, descarga si no, y cae a caché ante fallo de API con monkeypatch) y verificar que fallan antes de implementar
+- [x] 2.2 Implementar `src/eda_covid/ingest.py` (descarga de la API a `data/raw/covid_states_daily.csv`, reuso de caché, flag `--refresh`, fallback con advertencia) y verificar que los tests de 2.1 pasan
+- [x] 2.3 Descargar los datos reales una vez y verificar que el CSV crudo queda en `data/raw/` con ~20.780 filas
 
 ## 3. Limpieza determinista (data-pipeline)
 
