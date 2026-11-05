@@ -50,8 +50,8 @@
 
 ## 8. Verificación de integración
 
-- [ ] 8.1 Ejecutar la suite completa (`pytest`) y verificar que todos los tests pasan
-- [ ] 8.2 Ejecutar el flujo extremo a extremo (pipeline → notebook `--execute` → `streamlit run`) en un entorno limpio y verificar que funciona sin pasos manuales no documentados
+- [x] 8.1 Ejecutar la suite completa (`pytest`) y verificar que todos los tests pasan
+- [x] 8.2 Ejecutar el flujo extremo a extremo (pipeline → notebook `--execute` → `streamlit run`) en un entorno limpio y verificar que funciona sin pasos manuales no documentados
 
 ## Workflow follow-up
 
