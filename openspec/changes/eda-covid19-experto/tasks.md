@@ -43,10 +43,10 @@
 
 ## 7. Informes y documentación (reporting)
 
-- [ ] 7.1 Escribir `reports/informe_calidad_datos.md`: qué faltaba, qué se corrigió (nulos, columnas eliminadas, negativos), qué quedó pendiente y por qué
-- [ ] 7.2 Escribir `reports/informe_ejecutivo.md` (1–2 págs, público no técnico) con conclusiones claras y gráficos de respaldo, sin código
-- [ ] 7.3 Escribir `README.md`: origen de los datos, instalación de dependencias, y cómo ejecutar pipeline, notebook y dashboard; verificar siguiendo las instrucciones en un entorno limpio
-- [ ] 7.4 Confirmar que `requirements.txt` cubre notebook, pipeline y dashboard instalando desde cero en un entorno limpio
+- [x] 7.1 Escribir `reports/informe_calidad_datos.md`: qué faltaba, qué se corrigió (nulos, columnas eliminadas, negativos), qué quedó pendiente y por qué
+- [x] 7.2 Escribir `reports/informe_ejecutivo.md` (1–2 págs, público no técnico) con conclusiones claras y gráficos de respaldo, sin código
+- [x] 7.3 Escribir `README.md`: origen de los datos, instalación de dependencias, y cómo ejecutar pipeline, notebook y dashboard; verificar siguiendo las instrucciones en un entorno limpio
+- [x] 7.4 Confirmar que `requirements.txt` cubre notebook, pipeline y dashboard instalando desde cero en un entorno limpio
 
 ## 8. Verificación de integración
 
