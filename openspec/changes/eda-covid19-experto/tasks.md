@@ -28,13 +28,13 @@
 
 ## 5. Análisis exploratorio en notebook (exploratory-analysis)
 
-- [ ] 5.1 Crear `notebooks/eda_covid.ipynb` que cargue `data/processed/covid_clean.csv` y muestre estructura (`shape`, `info()`, `head()`, `describe()`) con texto explicativo
-- [ ] 5.2 Plantear ≥3 preguntas de negocio al inicio en markdown (a responder en conclusiones)
-- [ ] 5.3 Análisis univariado de ≥3 variables (histograma/conteo/boxplot) y bivariado de ≥3 relaciones, cada gráfico con título, ejes y leyenda cuando aplique
-- [ ] 5.4 Detección de outliers (boxplot/IQR) en variables numéricas con decisión escrita
-- [ ] 5.5 Agregaciones con `groupby`/`agg` y `pivot_table`; matriz de correlación con heatmap e interpretación escrita
-- [ ] 5.6 Tendencias temporales (líneas), comparación de segmentos (regiones/periodos) y ≥1 gráfico interactivo con `plotly`
-- [ ] 5.7 Sección de conclusiones que responde por escrito cada pregunta de 5.2 con evidencia; verificar ejecutando el notebook de arriba abajo desde un kernel limpio sin errores (`jupyter nbconvert --execute`)
+- [x] 5.1 Crear `notebooks/eda_covid.ipynb` que cargue `data/processed/covid_clean.csv` y muestre estructura (`shape`, `info()`, `head()`, `describe()`) con texto explicativo
+- [x] 5.2 Plantear ≥3 preguntas de negocio al inicio en markdown (a responder en conclusiones)
+- [x] 5.3 Análisis univariado de ≥3 variables (histograma/conteo/boxplot) y bivariado de ≥3 relaciones, cada gráfico con título, ejes y leyenda cuando aplique
+- [x] 5.4 Detección de outliers (boxplot/IQR) en variables numéricas con decisión escrita
+- [x] 5.5 Agregaciones con `groupby`/`agg` y `pivot_table`; matriz de correlación con heatmap e interpretación escrita
+- [x] 5.6 Tendencias temporales (líneas), comparación de segmentos (regiones/periodos) y ≥1 gráfico interactivo con `plotly`
+- [x] 5.7 Sección de conclusiones que responde por escrito cada pregunta de 5.2 con evidencia; verificar ejecutando el notebook de arriba abajo desde un kernel limpio sin errores (`jupyter nbconvert --execute`)
 
 ## 6. Dashboard interactivo (interactive-dashboard)
 
