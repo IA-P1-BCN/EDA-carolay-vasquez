@@ -1,0 +1,23 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Datos generados / descargados (se regeneran con el pipeline)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# La segunda fuente (población) SÍ se versiona para reproducibilidad offline
+!data/external/*
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Salidas de herramientas
+.streamlit/
+*.log
